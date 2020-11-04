@@ -4,7 +4,7 @@ jobs:
         - name: ""
           matrix:
                   include:
-                          - arch: arm64 
+arch: arm64-graviton2
 
 
 compiler: gcc

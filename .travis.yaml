@@ -5,3 +5,11 @@ jobs:
           matrix:
                   include:
                           - arch: arm64 
+
+
+compiler: gcc
+os: linux
+script:
+        echo "Hello"
+after_sciprt:
+        - sleep 1

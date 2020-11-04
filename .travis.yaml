@@ -1,4 +1,7 @@
 jobs:
-  include :
+  include:
       # linux
         - name: ""
+          matrix:
+                  include:
+                          - arch: arm64 

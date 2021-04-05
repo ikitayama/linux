@@ -1,0 +1,16 @@
+jobs:
+  include:
+      # linux
+        - name: ""
+          matrix:
+                  include:
+arch: arm64-graviton2
+
+
+compiler: gcc
+os: linux
+script:
+        echo "Hello"
+        ls -l
+after_sciprt:
+        - sleep 1
